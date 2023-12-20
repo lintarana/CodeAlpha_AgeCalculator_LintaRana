@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode button {
+    background-color: #555;
+}
+
+body.dark-mode button:hover {
+    background-color: #333;
+}
+
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #555;
+}
+
+body.dark-mode .toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+.toggle-btn:hover {
+    color: #007BFF;
+}
